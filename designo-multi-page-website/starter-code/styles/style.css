@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* PRIMARY COLORS */
+    --colorPeach: #E7816B;
+    --colorBlack: #1D1C1E;
+    --colorble: #1CC3EB;
+
+    /* SECONDARY COLORS */
+    --LIGHTPEACH: #FFAD9B;
+    --darkGrey: #333136;
+    --lightgrey: #F1F3F5;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Jost", sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    height: 1.5rem;
+    padding: 4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    background-size: 1.5rem;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    /* align-items: center; */
+    width: 69.438rem;
+    justify-content: space-between;
+}
+
+header img {
+    height: 1.5rem;
+}
+
+nav ol {
+    display: flex;
+    list-style: none;
+}
+
+nav ol li {
+    margin-left: 2em;
+}
+
+main {
+    display: grid;
+    justify-items: center;
+}
+
+.sobre-empresa {
+    display: grid;
+    height: 40rem;
+    background-color: var(--lightgrey);
+    background-image: url(/imagens/gestão-de-estoque.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background-color: var(--colorPeach); */
+    width: 69.438rem;
+    align-items: center;
+    justify-content: start;
+    padding-left: 5rem;
+    margin-bottom: 5rem;
+    border-radius: 1rem;
+
+}
+
+.content-sobre {
+    display: grid;
+    width: 33.75rem;
+    height: auto;
+    gap: 1rem;
+    background-color: #ffbf0012;
+    color: #1D1C1E;
+    padding: 2rem;
+    /* color: #FFFFFF; */
+    justify-items: right;
+    border-radius: 1rem;
+    /* align-content: space-evenly; */
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.content-parag {
+    font-size: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 33.75rem 1fr;
+    gap: 1rem;
+    height: 43.75rem;
+    width: calc(540px + 10px + 540px);
+}
+
+.box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 69.5rem; */
+    padding: 20px;
+    background-color: #333136;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    /* margin-bottom: 5rem; */
+}
+
+.web-design {
+    grid-row: 1 / span 2; /*ocupar duas linhas*/
+    background-size: cover;
+    background-position: center;
+}
+
+.app-design {
+    background-image: url(/imagens/gestão-de-estoque.png);
+    /* width: 33.75rem; */
+}
+
+.container-mvv {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 70rem;
+    padding: 20px;
+    border: 2px solid #007bff; /* Borda azul */
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.container-item {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .container-item h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .container-item p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+  }
+ 
+  .container-footet{
+    width: 69.438rem;
+  }
+
+  /* Seção de contato */
+  .contact-section {
+    text-align: center;
+    max-width: 700px;
+    padding: 20px;
+  }
+  
+  .contact-section h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+
+  .footer {
+    display: grid;
+    background-color: #1D1C1E;
+    color: #FFFFFF;
+    align-content: center;
+    justify-content: center;
+    height: 24.56rem;
+  }
+  
+  .footer-top h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-top p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-button {
+    background-color: #FFFFFF;
+    color: #E7816B;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    width: 100px;
+  }
+  
+  .footer-links a {
+    color: #FFFFFF;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-address,
+  .footer-contact {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-social a img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .footer-social a {
+    text-decoration: none;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .container-mvv {
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+    
+    .container-item {
+      width: 100%;
+    }
+}
+
