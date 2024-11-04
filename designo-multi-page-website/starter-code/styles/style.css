@@ -32,6 +32,11 @@ header {
     padding-right: 6rem;
     background-size: 1.5rem;
     justify-content: center;
+    align-items: center;
+}
+
+.logotipo {
+    height: 4rem;
 }
 
 nav {
@@ -48,6 +53,7 @@ header img {
 nav ol {
     display: flex;
     list-style: none;
+    align-items: center;
 }
 
 nav ol li {
