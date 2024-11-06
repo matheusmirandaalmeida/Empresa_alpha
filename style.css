@@ -76,20 +76,29 @@ main {
 }
 
 .sobre-empresa {
-    display: grid;
-    height: 40rem;
-    background-color: var(--lightgrey);
-    background-image: url("gestão-de-estoque.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    /* background-color: var(--colorPeach); */
-    width: 69.438rem;
-    align-items: center;
-    justify-content: start;
-    padding-left: 5rem;
-    margin-bottom: 5rem;
-    border-radius: 1rem;
+  display: grid;
+  height: 40rem;
+  background-color: var(--lightgrey);
+  background-image: url("gestão-de-estoque.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  /* background-color: var(--colorPeach); */
+  width: 69.438rem;
+  align-items: center;
+  justify-content: start;
+  padding-left: 5rem;
+  /* margin-bottom: 5rem; */
+  border-radius: 1rem;
 
+}
+
+.estrutura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+  border: 1px solid black;
+  /* border-radius: 1rem; */
 }
 
 .content-sobre {
@@ -219,53 +228,53 @@ ul li strong {
     text-align: center;
     width: 30%;
   }
-  
-  .container-item h2 {
-    font-size: 18px;
-    color: #333;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-  
-  .container-item p {
-    font-size: 14px;
-    color: #666;
-    line-height: 1.6;
-  }
- 
-  .container-footet{
-    width: 69.438rem;
-  }
 
-  /* Seção de contato */
-  .contact-section {
-    text-align: center;
-    max-width: 700px;
-    padding: 20px;
-  }
-  
-  .contact-section h3 {
-    font-size: 20px;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .contact-section p {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 20px;
-  }
-  
-  .contact-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-  }
+.container-item h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.container-item p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.container-footet{
+  width: 69.438rem;
+}
+
+/* Seção de contato */
+.contact-section {
+  text-align: center;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.contact-section h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
 
 
 /* Estilos para o endereço no rodapé */
@@ -277,7 +286,7 @@ ul li strong {
 .footer-address h3,
 .footer-contact h3 {
   font-size: 1.25rem;
-  color: #FFD700; /* cor dourada para destacar os títulos */
+  color: #FFD700;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
