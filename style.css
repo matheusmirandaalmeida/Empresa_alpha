@@ -79,7 +79,7 @@ main {
     display: grid;
     height: 40rem;
     background-color: var(--lightgrey);
-    background-image: url(/imagens/gestão-de-estoque.png);
+    background-image: url(gestão-de-estoque.png);
     background-repeat: no-repeat;
     background-position: right;
     /* background-color: var(--colorPeach); */
